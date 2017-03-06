@@ -122,6 +122,15 @@ minetest.register_craft({
 })
 
 minetest.register_craft({
+	output = 'neolaser:lightsaber',
+	recipe = {
+		{'default:steel_ingot'},
+		{'neolaser:laser_crystal'},
+		{'default:steel_ingot'},
+	}
+})
+
+minetest.register_craft({
 	output = 'neolaser:green_laser',
 	recipe = {
 		{'neolaser:laser_crystal'},
